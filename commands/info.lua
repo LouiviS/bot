@@ -1,11 +1,11 @@
 local Struct = {}
-Struct.Name = "-ping"
+Struct.Name = "info"
 Struct.Aliases = {
-    '-ms'
-}
+    '-informations',
+    '-information'}
 
 Struct.Execute = function(Client, Message, Args)
-    Message:reply("Commande ping")
+    Message:reply("config")
 end
 
 return Struct
